@@ -54,11 +54,11 @@ const Footer = () => {
         </div>
         <div className="credits">
           Designed by
-          <a target="_blank" href="https://bootstrapmade.com/">
+          <a target="_blank" rel="noreferrer" href="https://bootstrapmade.com/">
             BootstrapMade
           </a>{" "}
           - Developed by
-          <a target="_blank" href="https://www.sourceup.ma/">
+          <a target="_blank" rel="noreferrer" href="https://www.sourceup.ma/">
             Source Up
           </a>
         </div>
