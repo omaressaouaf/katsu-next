@@ -10,7 +10,7 @@ const Topbar = () => {
         </div>
       </div>
     </section>
-  );
+  )
 };
 
 export default Topbar;
