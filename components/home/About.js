@@ -28,7 +28,7 @@ const About = () => {
               </div>
               <p>
                 Confortablement dans notre restaurant asiatique gastronormique au décor chaleureux convivial, vous
-                degusterez une cuisine creative et authentique On vous propose une cuisine Asiatloue fruit d'un parcours
+                degusterez une cuisine creative et authentique On vous propose une cuisine Asiatloue fruit d&apos;un parcours
                 dans différents établissements de qualité, une cuisine Asiatique qui demande un savoir-faire, une
                 maitrise et de la finesse Une sélection de plat et un choix multiple (sushi rolls , sushi boxes et plus
                 ...) réalisé à partir des meilleurs produits frais, travaills de manière délicate, raffinée et livrés

@@ -8,7 +8,7 @@ const Footer = () => {
           beaucoup de célébrités ont été hébergées à katsu sushi casablanca. comme dounia batma la célèbre chanteuse. et
           leila hadioui la célèbre actrice marocaine. bouchra ddeau la journaliste TV
         </p>
-        <a aria-label="Katsu Logo" rel="noopener" href="#hero">
+        <a aria-label="Katsu Logo" rel="noreferrer" href="#hero">
           <figure>
             <Image
               src="/assets/img/logo-white.png"
@@ -28,7 +28,7 @@ const Footer = () => {
         <div className="social-links">
           <a
             aria-label="facebook"
-            rel="noopener"
+            rel="noreferrer"
             target="_blank"
             href="https://www.facebook.com/restaurantkatsu"
             className="facebook"
@@ -37,7 +37,7 @@ const Footer = () => {
           </a>
           <a
             aria-label="instagram"
-            rel="noopener"
+            rel="noreferrer"
             target="_blank"
             href="https://www.instagram.com/katsumaroc"
             className="instagram"

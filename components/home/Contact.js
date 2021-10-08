@@ -6,7 +6,7 @@ const Contact = () => {
           <h2>
             <span> Contactez</span>-nous
           </h2>
-          <p>n'hésitez pas à nous contacter en utilisant les informations ci-dessous</p>
+          <p>n&apos;hésitez pas à nous contacter en utilisant les informations ci-dessous</p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const Contact = () => {
 
             <div className="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i className="fa fa-clock"></i>
-              <h4>Heures d'ouverture:</h4>
+              <h4>Heures d&apos;ouverture:</h4>
               <p>
                 Lundi-Dimanche:
                 <br />

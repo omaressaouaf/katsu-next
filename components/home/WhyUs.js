@@ -14,7 +14,7 @@ const WhyUs = () => {
             <div className="box">
               <h4>Meilleure cuisine asiatique</h4>
               <p>
-                meilleurs sushis japonais à casablanca avec des soupes extraordinaires pour l'accompagner, et profitez
+                meilleurs sushis japonais à casablanca avec des soupes extraordinaires pour l&apos;accompagner, et profitez
                 de vos envies de restauration rapide avec nos tacos & tataki spéciaux
               </p>
             </div>
@@ -24,7 +24,7 @@ const WhyUs = () => {
             <div className="box">
               <h4>Reconnu par des célébrités</h4>
               <p>
-                vous n'avez pas dégusté nos plats? eh bien jetez un œil à notre instagram et voyez l'une des opinions
+                vous n&apos;avez pas dégusté nos plats? eh bien jetez un œil à notre instagram et voyez l&apos;une des opinions
                 des célébrités marocaines
               </p>
             </div>
@@ -34,7 +34,7 @@ const WhyUs = () => {
             <div className="box">
               <h4>Hygiène et souci du détail</h4>
               <p>
-                notre système d'hygiène fonctionne en toute sécurité du chef au serveur. nous prêtons attention aux
+                notre système d&apos;hygiène fonctionne en toute sécurité du chef au serveur. nous prêtons attention aux
                 détails afin que notre cher client soit servi comme il le mérite
               </p>
             </div>
