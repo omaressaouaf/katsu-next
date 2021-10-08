@@ -4,4 +4,7 @@ module.exports = {
     locales: ["fr"],
     defaultLocale: "fr",
   },
+  images: {
+    minimumCacheTTL: 604800,
+  },
 };
