@@ -3,7 +3,7 @@ const Hero = () => {
     <section id="hero">
       <div className="hero-container">
         <div id="heroCarousel" data-bs-interval="5000" className="carousel slide carousel-fade" data-bs-ride="carousel">
-          <div aria-label="hero slider" className="carousel-inner" role="listbox">
+          <div className="carousel-inner">
             <div
               className="carousel-item active"
               style={{

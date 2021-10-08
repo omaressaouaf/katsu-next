@@ -17,7 +17,7 @@ const Menu = () => {
         >
           <ol className="carousel-indicators" id="menu-carousel-indicators"></ol>
 
-          <div aria-label="menu slider" className="carousel-inner" role="listbox">
+          <div className="carousel-inner">
             {Array(20)
               .fill(0)
               .map((el, index) => {

@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="row">
             <div className="col-lg-4 col-md-6 info">
               <i className="fa fa-map-marker-alt"></i>
-              <h4>Localisation:</h4>
+              <h5>Localisation:</h5>
               <p>
                 Quartier Gauthier, 17 Rue Sebou, <br />
                 Casablanca 20250
@@ -34,7 +34,7 @@ const Contact = () => {
 
             <div className="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i className="fa fa-clock"></i>
-              <h4>Heures d&apos;ouverture:</h4>
+              <h5>Heures d&apos;ouverture:</h5>
               <p>
                 Lundi-Dimanche:
                 <br />
@@ -44,7 +44,7 @@ const Contact = () => {
 
             <div className="col-lg-4 col-md-6 info mt-4 mt-lg-0">
               <i className="fa fa-phone"></i>
-              <h4>Appelez-nous:</h4>
+              <h5>Appelez-nous:</h5>
               <p>
                 0520 106 140 <br />
                 0614 598 949
