@@ -5,10 +5,10 @@ const Gallery = () => {
     <section id="gallery" className="gallery">
       <div className="container-fluid">
         <div className="section-title">
-          <h2>
+          <h3>
             Quelques photos
-            <span>de nous</span>
-          </h2>
+            <span> de nous</span>
+          </h3>
         </div>
         <div className="row mb-3">
           <div className="col-lg-12 d-flex justify-content-center">

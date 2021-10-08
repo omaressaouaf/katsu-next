@@ -757,7 +757,7 @@ section {
   font-weight: 700;
   color: var(--primary-color);
 }
-.why-us .box h4 {
+.why-us .box h3 {
   font-size: 24px;
   font-weight: 600;
   padding: 0;
@@ -974,6 +974,19 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
+.gallery  h3 {
+  font-size: 34px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  /* color: var(--primary-color); */
+}
+.gallery  span {
+  display: inline;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
 .gallery #gallery-flters {
   padding: 0;
   margin: 0 auto 0 auto;
@@ -1108,6 +1121,19 @@ section {
 }
 .contact .info {
   background: #fff;
+}
+.contact  h4 {
+  font-size: 34px;
+  font-weight: 600;
+  padding: 0;
+  margin: 20px 0;
+  /* color: var(--primary-color); */
+}
+.contact  span {
+  display: inline;
+  font-size: 34px;
+  font-weight: 700;
+  color: var(--primary-color);
 }
 .contact .info i {
   font-size: 20px;

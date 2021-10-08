@@ -3,9 +3,9 @@ const Contact = () => {
     <section id="contact" className="contact">
       <div className="container">
         <div className="section-title">
-          <h2>
+          <h4>
             <span> Contactez</span>-nous
-          </h2>
+          </h4>
           <p>n&apos;hésitez pas à nous contacter en utilisant les informations ci-dessous</p>
         </div>
       </div>
