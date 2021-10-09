@@ -4,6 +4,7 @@
  * Author: BootstrapMade.com
  * License: https://bootstrapmade.com/license/
  */
+import "bootstrap/dist/js/bootstrap";
 import GLightbox from "glightbox";
 import Isotope from "isotope-layout";
 import Swiper, { Navigation, Pagination } from "swiper";

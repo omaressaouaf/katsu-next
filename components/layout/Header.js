@@ -46,7 +46,7 @@ const Header = () => {
           <i className="fas fa-bars mobile-nav-toggle"></i>
         </nav>
 
-        <a href="tel:+212614598949" className="btn-prim scrollto d-none d-lg-block">
+        <a href="tel:+212614598949" className="btn-prim d-none d-lg-block">
           Appelez-nous
         </a>
       </div>
