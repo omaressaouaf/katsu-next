@@ -35,10 +35,6 @@ const HeadData = () => {
   return (
     <Head>
       <link rel="icon" type="image/png" href="favicon.ico"></link>
-      <link
-        href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,600,600i,700,700i|Satisfy|Comic+Neue:300,300i,400,400i,700,700i"
-        rel="stylesheet"
-      />
 
       <title>Katsu Sushi - Meilleur restaurant asiatique à casablanca</title>
       <meta
