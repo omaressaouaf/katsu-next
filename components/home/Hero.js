@@ -18,7 +18,7 @@ const Hero = () => {
                   <p className="animate__animated animate__fadeInUp">
                     Nous vous souhaitons la bienvenue sur le site du Restaurant asiatique Katsu. Situé à casa, nous vous
                     invitons à venir découvrir une cuisine asiatique raffinée et un choix varié de menus (Nems, soupes,
-                    salades, tempuras, nigiri, sashimi, sushis, plats, etc...), avec livraison gratuite sur Casa et
+                    salades, tempuras, nigiri, sashimi, sushis, plats, etc...). livraison gratuite sur Casa et
                     Bouskoura avec possibilité de payer par carte bancaire.
                   </p>
                   <p style={{ display: "none" }}>
