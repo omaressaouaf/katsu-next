@@ -84,36 +84,6 @@ figure {
   color: #fff !important;
 }
 /*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
-.back-to-top {
-  position: fixed;
-  visibility: hidden;
-  opacity: 0;
-  right: 15px;
-  bottom: 15px;
-  z-index: 996;
-  background: var(--primary-color);
-  width: 40px;
-  height: 40px;
-  border-radius: 50px;
-  transition: all 0.4s;
-}
-.back-to-top i {
-  font-size: 28px;
-  color: #fff;
-  line-height: 0;
-}
-.back-to-top:hover {
-  background: var(--primary-color-dark);
-  color: #fff;
-}
-.back-to-top.active {
-  visibility: visible;
-  opacity: 1;
-}
-
-/*--------------------------------------------------------------
 # Call delivery button
 --------------------------------------------------------------*/
 .call-delivery-btn {
@@ -187,33 +157,6 @@ figure {
   margin: 0;
   max-height: 170px;
   max-width: 120px;
-}
-
-/*--------------------------------------------------------------
-# Book a table button Menu
---------------------------------------------------------------*/
-.book-a-table-btn {
-  background: var(--primary-color);
-  color: #fff;
-  border-radius: 50px;
-  margin: 0 0 0 20px;
-  padding: 10px 25px;
-  font-size: 13px;
-  font-weight: 500;
-  letter-spacing: 1px;
-  transition: 0.3s;
-  white-space: nowrap;
-}
-.book-a-table-btn:hover {
-  background: var(--primary-color-dark);
-  color: #fff;
-}
-@media (max-width: 992px) {
-  .book-a-table-btn {
-    margin: 0 15px 0 0;
-    padding: 8px 20px;
-    letter-spacing: 1px;
-  }
 }
 
 /*--------------------------------------------------------------
@@ -515,28 +458,10 @@ figure {
 #hero .carousel-indicators li {
   cursor: pointer;
 }
-#hero .btn-menu,
-#hero .btn-book {
-  font-weight: 600;
-  font-size: 13px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 0 10px;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  color: #fff;
-  border: 2px solid var(--primary-color);
+#hero .btn-menu {
+  color: #fff !important;
 }
-#hero .btn-menu:hover,
-#hero .btn-book:hover {
-  background: var(--primary-color);
-  color: #fff;
-}
+
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 28px;
@@ -885,60 +810,6 @@ section {
     height: 2780px !important;
   }
 }
-
-/*--------------------------------------------------------------
-# Specials
---------------------------------------------------------------*/
-.specials {
-  overflow: hidden;
-}
-.specials .nav-tabs {
-  border: 0;
-}
-.specials .nav-link {
-  border: 0;
-  padding: 12px 15px 12px 0;
-  transition: 0.3s;
-  color: #433f39;
-  border-radius: 0;
-  border-right: 2px solid #e8e7e4;
-  font-weight: 600;
-  font-size: 15px;
-}
-.specials .nav-link:hover {
-  color: var(--primary-color);
-}
-.specials .nav-link.active {
-  color: var(--primary-color);
-  border-color: var(--primary-color);
-}
-.specials .tab-pane.active {
-  -webkit-animation: fadeIn 0.5s ease-out;
-  animation: fadeIn 0.5s ease-out;
-}
-.specials .details h3 {
-  font-size: 26px;
-  font-weight: 600;
-  margin-bottom: 20px;
-  color: #433f39;
-}
-.specials .details p {
-  color: #777777;
-}
-.specials .details p:last-child {
-  margin-bottom: 0;
-}
-@media (max-width: 992px) {
-  .specials .nav-link {
-    border: 0;
-    padding: 15px;
-  }
-  .specials .nav-link.active {
-    color: #fff;
-    background: var(--primary-color);
-  }
-}
-
 /*--------------------------------------------------------------
 # Gallery
 --------------------------------------------------------------*/
@@ -974,14 +845,14 @@ section {
 .gallery .gallery-item:hover img {
   transform: scale(1.1);
 }
-.gallery  h3 {
+.gallery h3 {
   font-size: 34px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
   /* color: var(--primary-color); */
 }
-.gallery  span {
+.gallery span {
   display: inline;
   font-size: 34px;
   font-weight: 700;
@@ -1122,14 +993,14 @@ section {
 .contact .info {
   background: #fff;
 }
-.contact  h4 {
+.contact h4 {
   font-size: 34px;
   font-weight: 600;
   padding: 0;
   margin: 20px 0;
   /* color: var(--primary-color); */
 }
-.contact  span {
+.contact span {
   display: inline;
   font-size: 34px;
   font-weight: 700;

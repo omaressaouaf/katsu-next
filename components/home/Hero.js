@@ -26,7 +26,7 @@ const Hero = () => {
                     maarif.
                   </p>
                   <div>
-                    <a href="#menu" className="btn-menu animate__animated animate__fadeInUp scrollto">
+                    <a href="#menu" className="btn-prim-outline btn-menu  animate__animated animate__fadeInUp scrollto">
                       Notre menu
                     </a>
                   </div>

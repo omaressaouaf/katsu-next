@@ -6,7 +6,7 @@
  */
 import GLightbox from "glightbox";
 import Isotope from "isotope-layout";
-import Swiper , { Navigation, Pagination }  from "swiper";
+import Swiper, { Navigation, Pagination } from "swiper";
 Swiper.use([Navigation, Pagination]);
 
 (function () {
@@ -103,22 +103,6 @@ Swiper.use([Navigation, Pagination]);
   }
 
   /**
-   * Back to top button
-   */
-  let backtotop = select(".back-to-top");
-  if (backtotop) {
-    const toggleBacktotop = () => {
-      if (window.scrollY > 100) {
-        backtotop.classList.add("active");
-      } else {
-        backtotop.classList.remove("active");
-      }
-    };
-    window.addEventListener("load", toggleBacktotop);
-    onscroll(document, toggleBacktotop);
-  }
-
-  /**
    * Mobile nav toggle
    */
   on("click", ".mobile-nav-toggle", function (e) {
@@ -175,20 +159,6 @@ Swiper.use([Navigation, Pagination]);
       }
     }
   });
-
-  /**
-   * Hero carousel indicators
-   */
-  // let heroCarouselIndicators = select("#hero-carousel-indicators");
-  // let heroCarouselItems = select("#heroCarousel .carousel-item", true);
-
-  // heroCarouselItems.forEach((item, index) => {
-  //   index === 0
-  //     ? (heroCarouselIndicators.innerHTML +=
-  //         "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "' class='active'></li>")
-  //     : (heroCarouselIndicators.innerHTML +=
-  //         "<li data-bs-target='#heroCarousel' data-bs-slide-to='" + index + "'></li>");
-  // });
   /**
    * Menu carousel indicators
    */
@@ -202,8 +172,6 @@ Swiper.use([Navigation, Pagination]);
       : (menuCarouselIndicators.innerHTML +=
           "<li data-bs-target='#menuCarousel' data-bs-slide-to='" + index + "'></li>");
   });
-
-
 
   /**
    * Gallery isotope and filter
@@ -241,7 +209,7 @@ Swiper.use([Navigation, Pagination]);
   /**
    * Initiate gallery lightbox
    */
-  const galleryLightbox = GLightbox({
+  GLightbox({
     selector: ".gallery-lightbox",
   });
 
@@ -262,25 +230,4 @@ Swiper.use([Navigation, Pagination]);
       clickable: true,
     },
   });
-
-  /**
-   * Gallery Load More
-   */
-
-  // const galleryWrapper = document.querySelector(".gallery .no-gutters");
-
-  // galleryWrapper.childNodes.forEach((child, index) => {
-  //   if (child.nodeName === "DIV" && index > 15) {
-  //     child.style.display = "none";
-  //   }
-  // });
-
-  // document.querySelector(".gallery-load-more").addEventListener("click", e => {
-  //   galleryWrapper.childNodes.forEach((child, index) => {
-  //     if (child.nodeName === "DIV" && index > 15) {
-  //       child.style.display = "block";
-  //     }
-  //   });
-  //   e.target.style.display = "none";
-  // });
 })();
