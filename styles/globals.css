@@ -792,22 +792,73 @@ section {
   }
 }
 
-#menu .carousel-item-container {
-  height: 950px !important;
+/*
+  ##Device = 2X-Large Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 2023px) {
+  #menu .carousel-item-container {
+    height: 1750px !important;
+  }
 }
-@media (min-width: 1600px) {
+/*
+/*
+  ##Device = X-Large Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1686px) and (max-width: 2023px) {
   #menu .carousel-item-container {
     height: 1250px !important;
   }
 }
-@media (min-width: 768px) and (max-width: 991px) {
+/*
+  ##Device = Large Laptops & Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1686px) {
   #menu .carousel-item-container {
-    height: 2180px !important;
+    height: 1050px !important;
   }
 }
-@media (min-width: 992px) and (max-width: 1199px) {
+
+/*
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  #menu .carousel-item-container {
+    height: 900px !important;
+  }
+}
+
+/*
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
   #menu .carousel-item-container {
     height: 2780px !important;
+  }
+}
+@media (min-width: 540px) and (max-width: 768px) {
+  #menu .carousel-item-container {
+    height: 2080px !important;
+  }
+}
+
+/*
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 280px) and (max-width: 480px) {
+  #menu .carousel-item-container {
+    height: 1050px !important;
   }
 }
 /*--------------------------------------------------------------

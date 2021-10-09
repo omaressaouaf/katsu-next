@@ -1,6 +1,17 @@
 import Image from "next/image";
+import { useEffect, useState } from "react";
 
 const Menu = () => {
+  const [priority, setPriority] = useState(false);
+
+  useEffect(() => {
+    document.querySelector("#menuCarousel").addEventListener("slide.bs.carousel", function () {
+      if (!priority) {
+        setPriority(true);
+      }
+    });
+  }, []);
+
   return (
     <section id="menu" className="menu">
       <div>
@@ -29,10 +40,8 @@ const Menu = () => {
                           <Image
                             className="d-block w-100"
                             src={`/assets/img/menu/menu-${index}.jpg`}
-                            placeholder="blur"
-                            blurDataURL={`/assets/img/menu/menu-${index}.jpg`}
                             layout="fill"
-                            priority={index < 7 ? true : false}
+                            priority={priority}
                             alt="menu"
                           />
                         </div>
@@ -40,10 +49,8 @@ const Menu = () => {
                           <Image
                             className="d-block w-100"
                             src={`/assets/img/menu/menu-${index + 1}.jpg`}
-                            placeholder="blur"
-                            blurDataURL={`/assets/img/menu/menu-${index + 1}.jpg`}
                             layout="fill"
-                            priority={index < 7 ? true : false}
+                            priority={priority}
                             alt="menu"
                           />
                         </div>
