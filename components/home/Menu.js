@@ -40,6 +40,8 @@ const Menu = () => {
                           <Image
                             className="d-block w-100"
                             src={`/assets/img/menu/menu-${index}.jpg`}
+                            placeholder="blur"
+                            blurDataURL={`/assets/img/menu/menu-${index}.jpg`}
                             layout="fill"
                             priority={priority}
                             alt="menu"
@@ -49,6 +51,8 @@ const Menu = () => {
                           <Image
                             className="d-block w-100"
                             src={`/assets/img/menu/menu-${index + 1}.jpg`}
+                            placeholder="blur"
+                            blurDataURL={`/assets/img/menu/menu-${index + 1}.jpg`}
                             layout="fill"
                             priority={priority}
                             alt="menu"
