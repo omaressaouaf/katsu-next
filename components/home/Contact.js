@@ -23,7 +23,7 @@ const Contact = () => {
       <div className="container mt-5">
         <div className="info-wrap">
           <div className="row">
-            <div className="col-lg-4 col-md-6 info">
+            <div className="col-lg-3 col-md-6 info">
               <i className="fa fa-map-marker-alt"></i>
               <h5>Localisation:</h5>
               <p>
@@ -32,7 +32,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="col-lg-4 col-md-6 info mt-4 mt-lg-0">
+            <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
               <i className="fa fa-clock"></i>
               <h5>Heures d&apos;ouverture:</h5>
               <p>
@@ -42,12 +42,28 @@ const Contact = () => {
               </p>
             </div>
 
-            <div className="col-lg-4 col-md-6 info mt-4 mt-lg-0">
+            <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
               <i className="fa fa-phone"></i>
               <h5>Appelez-nous:</h5>
               <p>
                 0520 106 140 <br />
                 0614 598 949
+              </p>
+            </div>
+
+            <div className="col-lg-3 col-md-6 info mt-4 mt-lg-0">
+              <i className="fab fa-instagram"></i>
+              <h5>Instagram:</h5>
+              <p>
+                <a
+                  aria-label="instagram"
+                  rel="noreferrer"
+                  target="_blank"
+                  href="https://www.instagram.com/katsumaroc"
+                  className="instagram"
+                >
+                  @katsumaroc
+                </a>
               </p>
             </div>
           </div>
